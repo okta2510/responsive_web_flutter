@@ -17,6 +17,7 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           NavigationDrawerHeader(),
+          DrawerItem('Home', Icons.home, HomeRoute),
           DrawerItem('Episodes', Icons.videocam, EpisodesRoute),
           DrawerItem('About', Icons.help, AboutRoute)
         ],
