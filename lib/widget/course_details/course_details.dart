@@ -27,7 +27,7 @@ class CourseDetails extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  'Flutter WEB.\nThe Basics',
+                  'Cashbac Test.\nPlay with flutter',
                   style: TextStyle(
                       fontWeight: FontWeight.w800,
                       height: 0.9,
@@ -38,7 +38,7 @@ class CourseDetails extends StatelessWidget {
                   height: 30,
                 ),
                 Text(
-                  'In this course we will go over the basics of using Flutter Web for website development. Topics will include Responsive Layout, Deploying, Font Changes, Hover Functionality, Modals and more.',
+                  'Cara mudah mendapatkan Rewards Instan. Kapanpun. Di manapun. Saat makan, berbelanja, perawatan kecantikan, atau bahkan saat berolahraga. Dengan Cashbac, kamu akan langsung mendapatkan POINTS dengan melakukan transaksi di merchants Cashbac.',
                   style: TextStyle(fontSize: descriptionSize, height: 1.7),
                   textAlign: textAlignment,
                 )
