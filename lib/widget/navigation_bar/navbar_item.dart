@@ -14,7 +14,9 @@ class NavBarItem extends StatelessWidget {
         onTap: () {
           // dont event ever use service directly in  the ui to change any kind state
           // service should only be used from view model
+          print(context);
           locator<NavigationService>().navigateTo(navigationPath);
+          Scaffold.of(context).openEndDrawer();
         },
         child: Text(
           title,
