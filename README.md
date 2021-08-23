@@ -206,3 +206,6 @@ https://firebase.flutter.dev/docs/installation/web/
 https://github.com/flutter/flutter/issues/36126#issuecomment-511145268
 https://github.com/FirebaseExtended/flutterfire/issues/4631
 
+
+### login in flutter web
+https://medium.com/flutter-community/implementing-login-in-flutter-web-hummingbird-4b3c9c07f95f
