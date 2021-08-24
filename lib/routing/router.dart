@@ -3,6 +3,7 @@ import 'package:login_page/routing/route_names.dart';
 import 'package:login_page/views/about/about_view.dart';
 import 'package:login_page/views/episodes/episodes_view.dart';
 import 'package:login_page/views/home/home_view.dart';
+import 'package:login_page/views/login/login_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
@@ -12,6 +13,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return _getPageRoute(AboutView());
     case EpisodesRoute:
       return _getPageRoute(EpisodesView());
+    case LoginRoute:
+      return _getPageRoute(LoginView());
     default:
       return _getPageRoute(HomeView());
   }
